@@ -45,5 +45,9 @@ public class TheWitcher {
 		else {
 			return false;
 		}
+		public void recibirdamage(int damage) {
+			healht-=damage;
+			if(healht<0) healht=0;
+		}
 	}
 }
