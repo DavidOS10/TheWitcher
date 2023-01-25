@@ -50,4 +50,9 @@ public class TheWitcher {
 			if(healht<0) healht=0;
 		}
 	}
+	//metodo hacerDamage
+	public void producirDamage(int damage) {
+		health += damage;
+		if(health < 0) health = 0;
+	}
 }
