@@ -47,7 +47,7 @@ public class TheWitcher {
 		}
 	}
 	
-	public void hacerDamage(int damage) {
+	public void producirDamage(int damage) {
 		health += damage;
 		if(health < 0) health = 0;
 	}
